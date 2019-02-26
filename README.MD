@@ -30,7 +30,7 @@ e.g. http://localhost:3000/distance?lat1=-1.28333&lng1=36.81667&lat2=-4.036878&l
 
 ### Bounding box
 
-Returns a bounding box given distance and center point (coordinates). The result will have width of `2 _ inradius_.
+Returns a bounding box given distance and center point (coordinates). The result will have width of `2 * inradius`.
 
 `/bounds?lat={latitude}&lng={longitude}&inradius={inradius}`  
 e.g. http://localhost:3000/bounds?lat=-1.286557&lng=36.817374&inradius=50
@@ -72,7 +72,7 @@ e.g. http://localhost:3000/bounds?lat=-1.286557&lng=36.817374&inradius=50
 
 <h1 align="center">
 	<img
-		width="800"
+		width="500"
 		alt="Banner"
 		src="img/1.png">
 </h1>
@@ -155,7 +155,7 @@ e.g. http://localhost:3000/bounds?lat=65.601221&lng=-173.766828&inradius=500&wra
 
 <h1 align="center">
 	<img
-		width="800"
+		width="500"
 		alt="Banner"
 		src="img/2.png">
 </h1>
